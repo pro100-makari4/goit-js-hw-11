@@ -2,21 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Homework #10</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Домашня робота №10</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <p class="tasks-text">Tasks:</p>
-    <ul class="task-list">
-      <li><a class="navigation-a" href="./1-timer.html">Timer</a></li>
-      <li><a class="navigation-a" href="./2-snackbar.html">Snackbar</a></li>
-    </ul>
+    <form class="form">
+      <input
+        class="search-input"
+        type="text"
+        name="delay"
+        required
+        placeholder="Search images..."
+      />
+      <button class="search-button" type="submit">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+
+    <script src="./main.js" type="module"></script>
   </body>
 </html>
