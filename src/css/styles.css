@@ -1,0 +1,43 @@
+@import url('./reset.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.task-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.navigation-a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 6px 24px;
+  transition: all 550ms;
+
+  color: rgb(48, 48, 48);
+  background-color: rgb(241, 206, 50);
+}
+
+.navigation-a:hover,
+.navigation-a:focus {
+  color: rgb(33, 32, 32);
+  background-color: rgb(255, 0, 0);
+}
+
+.go-back {
+  display: block;
+  margin-bottom: 16px;
+}
